@@ -1,0 +1,66 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --Border: 0px;
+}
+
+body {
+    background-image: linear-gradient(180deg, 
+    white 20%, grey 100%, green 0%);
+    font-family: "Google sans", sans-serif;
+}
+
+.zagoLOVEok{
+    list-style: none;
+    font-weight: 450;
+    font-size: 50px;
+    background-image: linear-gradient(250deg, 
+    #833AB4 50%, red 100%, #FCB045 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Erect {
+    width: 200px;
+    height: 200px;
+    background: green;
+    border-radius: 0px;
+    margin: 20px auto;
+    transition: border-radius 0.1s ease;
+    justify-content: center;
+    align-items: center;
+}
+
+#polzunok {
+    list-style: none;
+    font-weight: 450;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 100px;
+}
+
+#Bord {
+    padding-top: 20px;
+    list-style: none;
+    font-weight: 450;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    background-image: linear-gradient(250deg, 
+    #833AB4 50%, #ebbebe 100%, #FCB045 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
